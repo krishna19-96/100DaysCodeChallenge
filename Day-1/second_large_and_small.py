@@ -8,13 +8,13 @@ def second_large_and_small(arrays):
         if num < min1:
             min2 = min1
             min1 = num
-        elif num > min1 and (num < min2 or min1 == min2):  # Ensure distinct second min
+        elif num > min1 and (num < min2 or min1 == min2):
             min2 = num
 
         if num > max1:
             max2 = max1
             max1 = num
-        elif num < max1 and (num > max2 or max1 == max2):  # Ensure distinct second max
+        elif num < max1 and (num > max2 or max1 == max2):
             max2 = num
 
     print("Second Smallest no is : ", min2)

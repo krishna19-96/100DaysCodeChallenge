@@ -8,7 +8,7 @@ def min_and_max(arrays):
         if minimum > num:
             minimum = num
 
-        if maximum < num:
+        elif maximum < num:
             maximum = num
 
     print("Minimum value is: ", minimum)
